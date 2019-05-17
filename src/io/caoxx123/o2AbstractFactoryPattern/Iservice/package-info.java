@@ -1,0 +1,1 @@
+package io.caoxx123.o2AbstractFactoryPattern.Iservice;
