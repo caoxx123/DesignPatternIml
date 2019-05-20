@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ddad99c-838b-4610-9aaf-bc61a742d201" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o13ProxyPattern/demo/ProxyPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o13ProxyPattern/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o13ProxyPattern/service/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o13ProxyPattern/service/serviceIml/ProxyImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o13ProxyPattern/service/serviceIml/RealImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/AbstractLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/ChainPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/ConsoleLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/ErrorLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/FileLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/demo/Broker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/demo/CommandPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/demo/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/service/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/service/serviceIml/BuyStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/service/serviceIml/SellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/demo/InterpreterPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/service/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/service/serviceIml/AndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/service/serviceIml/OrExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/service/serviceIml/TerminalExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,24 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o13ProxyPattern/service/serviceIml/ProxyImage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-              <folding>
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o13ProxyPattern/demo/ProxyPatternDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/demo/InterpreterPatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="299">
+              <caret line="26" column="94" selection-start-line="26" selection-start-column="94" selection-end-line="26" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,24 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o5PrototypePattern/demo/Shape.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o5PrototypePattern/demo/ShapeCache.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o5PrototypePattern/demo/PrototypePatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o6AdapterPattern/service/MediaPlayer.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o6AdapterPattern/service/AdvancedMediaPlayer.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o6AdapterPattern/service/serviceiml/AdvancedMediaPlayer.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o6AdapterPattern/service/serviceiml/VlcPlayer.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o6AdapterPattern/service/serviceiml/Mp4Player.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o6AdapterPattern/service/serviceiml/MediaAdapeter.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o6AdapterPattern/demo/AdapterPatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o6AdapterPattern/service/serviceiml/AudioPlayer.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o7BridgePattern/service/DrawAPI.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o7BridgePattern/service/serviceIml/RedCircle.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o7BridgePattern/service/serviceIml/GreenCircle.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o7BridgePattern/demo/BridgePatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o7BridgePattern/demo/Circle.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o7BridgePattern/demo/Shape.java" />
-        <option value="$PROJECT_DIR$/src/io/caoxx123/o5PrototypePattern/package-info.java" />
         <option value="$PROJECT_DIR$/src/io/caoxx123/o3SingletonPattern/package-info.java" />
         <option value="$PROJECT_DIR$/src/io/caoxx123/o8FilterPattern/demo/Person.java" />
         <option value="$PROJECT_DIR$/src/io/caoxx123/o8FilterPattern/service/Criteria.java" />
@@ -119,6 +102,24 @@
         <option value="$PROJECT_DIR$/src/io/caoxx123/o13ProxyPattern/service/serviceIml/RealImage.java" />
         <option value="$PROJECT_DIR$/src/io/caoxx123/o13ProxyPattern/service/serviceIml/ProxyImage.java" />
         <option value="$PROJECT_DIR$/src/io/caoxx123/o13ProxyPattern/demo/ProxyPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/ConsoleLogger.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/ErrorLogger.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/FileLogger.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/AbstractLogger.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/ChainPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o14CommandPattern/service/Order.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o14CommandPattern/demo/Stock.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o14CommandPattern/service/BuyStock.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o14CommandPattern/service/serviceIml/BuyStock.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o14CommandPattern/service/serviceIml/SellStock.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o14CommandPattern/demo/Broker.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/demo/Broker.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/demo/CommandPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/service/Expression.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/service/serviceIml/TerminalExpression.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/service/serviceIml/OrExpression.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/service/serviceIml/AndExpression.java" />
+        <option value="$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/demo/InterpreterPatternDemo.java" />
       </list>
     </option>
   </component>
@@ -180,14 +181,14 @@
               <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="caoxx123" type="462c0819:PsiDirectoryNode" />
-              <item name="o13ProxyPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="o16InterpreterPattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="caoxx123" type="462c0819:PsiDirectoryNode" />
-              <item name="o13ProxyPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="o16InterpreterPattern" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -195,8 +196,17 @@
               <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="caoxx123" type="462c0819:PsiDirectoryNode" />
-              <item name="o13ProxyPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="o16InterpreterPattern" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="caoxx123" type="462c0819:PsiDirectoryNode" />
+              <item name="o16InterpreterPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceIml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,13 +245,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProxyPatternDemo">
-    <configuration name="CompositePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.caoxx123.o9CompositePattern.demo.CompositePatternDemo" />
+  <component name="RunManager" selected="Application.InterpreterPatternDemo">
+    <configuration name="ChainPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.caoxx123.o14ChainofResponsibilityPattern.demo.ChainPatternDemo" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.caoxx123.o9CompositePattern.demo.*" />
+          <option name="PATTERN" value="io.caoxx123.o14ChainofResponsibilityPattern.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,25 +259,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoratorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.caoxx123.o10DecoratorPattern.demo.DecoratorPatternDemo" />
+    <configuration name="CommandPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.caoxx123.o15CommandPatter.demo.CommandPatternDemo" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.caoxx123.o10DecoratorPattern.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FacadePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.caoxx123.o11FacadePattern.demo.FacadePatternDemo" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.caoxx123.o11FacadePattern.demo.*" />
+          <option name="PATTERN" value="io.caoxx123.o15CommandPatter.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,6 +278,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.caoxx123.o12FlyweightPattern.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterpreterPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.caoxx123.o16InterpreterPattern.demo.InterpreterPatternDemo" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.caoxx123.o16InterpreterPattern.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterpreterPatternDemo" />
+        <item itemvalue="Application.CommandPatternDemo" />
+        <item itemvalue="Application.ChainPatternDemo" />
         <item itemvalue="Application.ProxyPatternDemo" />
         <item itemvalue="Application.FlyweightPattern" />
-        <item itemvalue="Application.FacadePatternDemo" />
-        <item itemvalue="Application.DecoratorPatternDemo" />
-        <item itemvalue="Application.CompositePatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +351,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32935154" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32935154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,7 +359,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.32764506" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.32764506" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.32764506" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32879046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -379,168 +389,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o7BridgePattern/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o7BridgePattern/service/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o7BridgePattern/service/DrawAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o7BridgePattern/service/serviceIml/RedCircle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o7BridgePattern/service/serviceIml/GreenCircle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o7BridgePattern/demo/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o7BridgePattern/demo/BridgePatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o7BridgePattern/demo/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/design_pattern/io/caoxx123/o1FactoryPattern/demo/FactoryPatternDemo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <folding>
-            <element signature="e#0#633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o8FilterPattern/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o5PrototypePattern/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o3SingletonPattern/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o8FilterPattern/demo/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="29" selection-end-line="25" />
-          <folding>
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o8FilterPattern/service/Criteria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o8FilterPattern/service/serviceIml/OrCriteria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#602#610#0" expanded="true" />
-            <element signature="e#662#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o8FilterPattern/service/serviceIml/AndCriteria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o8FilterPattern/service/serviceIml/CriteriaFemal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#379#387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o8FilterPattern/service/serviceIml/CriteriaSingle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o8FilterPattern/service/serviceIml/CriteriaMale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o9CompositePattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -814,6 +662,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o13ProxyPattern/demo/ProxyPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o13ProxyPattern/service/serviceIml/ProxyImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -825,10 +683,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o13ProxyPattern/demo/ProxyPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/ErrorLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/FileLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/ChainPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/ConsoleLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o14ChainofResponsibilityPattern/demo/AbstractLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/service/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/demo/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/service/serviceIml/BuyStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/service/serviceIml/SellStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/demo/Broker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#226#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/service/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o15CommandPatter/demo/CommandPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/service/serviceIml/TerminalExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/service/serviceIml/OrExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+          <folding>
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/service/serviceIml/AndExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+          <folding>
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/caoxx123/o16InterpreterPattern/demo/InterpreterPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="26" column="94" selection-start-line="26" selection-start-column="94" selection-end-line="26" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
