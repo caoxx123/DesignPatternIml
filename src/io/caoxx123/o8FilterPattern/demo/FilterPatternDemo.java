@@ -23,19 +23,29 @@ public class FilterPatternDemo {
         Criteria singleMale = new AndCriteria(single, male);
         Criteria singleOrFemale = new OrCriteria(single, female);
         System.out.println("Male");
+        System.out.println("----------------------------------------------------------");
         printPerson(male.meetCriteria(persons));
+        System.out.println("----------------------------------------------------------");
         System.out.println("FeMale");
+        System.out.println("----------------------------------------------------------");
         printPerson(female.meetCriteria(persons));
+        System.out.println("----------------------------------------------------------");
         System.out.println("Single");
+        System.out.println("----------------------------------------------------------");
         printPerson(single.meetCriteria(persons));
+        System.out.println("----------------------------------------------------------");
         System.out.println("SignleMale");
+        System.out.println("----------------------------------------------------------");
         printPerson(singleMale.meetCriteria(persons));
+        System.out.println("----------------------------------------------------------");
         System.out.println("SignleMaleOrFemal");
+        System.out.println("----------------------------------------------------------");
         printPerson(singleOrFemale.meetCriteria(persons));
+        System.out.println("----------------------------------------------------------");
     }
         public static void printPerson(List<Person> persons){
             for (Person person:persons){
-                System.out.println(person.getName()+person.getGender()+person.getMarialStatus());
+                System.out.println("name:"+person.getName()+": Gneder:"+person.getGender()+": Marial:"+person.getMarialStatus());
             }
         }
 }
